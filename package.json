@@ -1,0 +1,25 @@
+{
+    "name": "web3-telegram-bot-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/main.ts",
+        "start:prod": "node dist/main.js",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "google-spreadsheet": "^3.3.0",
+        "node-telegram-bot-api": "^0.59.0",
+        "typescript": "^4.8.4"
+    },
+    "devDependencies": {
+        "@types/google-spreadsheet": "^3.3.0",
+        "@types/node": "^18.11.9",
+        "@types/node-telegram-bot-api": "^0.57.6",
+        "ts-node": "^10.9.1"
+    }
+}
